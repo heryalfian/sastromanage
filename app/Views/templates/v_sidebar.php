@@ -67,8 +67,26 @@
                 <a class="collapse-item" href="utilities-border.html">Ulasan</a>
             </div>
         </div>
-
     </li>
+
+    <?php if (in_groups('admin')) : ?>
+
+    <!-- Divider -->
+    <hr class="sidebar-divider">
+
+    <!-- Heading -->
+    <div class="sidebar-heading">
+        User Management
+    </div>
+
+    <!-- Nav Item - User List Data -->
+    <li class="nav-item">
+        <a class="nav-link" href="charts.html">
+            <i class="fas fa-fw fa-user-alt"></i>
+            <span>User List</span></a>
+    </li>
+
+    <?php endif; ?>
 
     <!-- Divider -->
     <hr class="sidebar-divider">
@@ -77,10 +95,6 @@
     <div class="sidebar-heading">
         Profile
     </div>
-
-
-
-
 
     <!-- Nav Item - Charts -->
     <li class="nav-item">
