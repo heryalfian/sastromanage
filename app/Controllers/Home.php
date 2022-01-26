@@ -18,8 +18,13 @@ class Home extends BaseController
         echo view("templates/v_footer");
     }
 
-    public function auth()
+    public function login()
     {
         return view('auth/login');
+    }
+
+    public function register()
+    {
+        return view('auth/register');
     }
 }
