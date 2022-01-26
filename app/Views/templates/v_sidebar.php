@@ -14,7 +14,7 @@
 
     <!-- Heading -->
     <div class="sidebar-heading">
-        Divisi
+        Kelola Data
     </div>
 
     <!-- Nav Item - Pages Collapse Menu -->
@@ -56,7 +56,7 @@
 
     <!-- Heading -->
     <div class="sidebar-heading">
-        Kelola Data
+        Profile
     </div>
 
 
@@ -66,8 +66,8 @@
     <!-- Nav Item - Charts -->
     <li class="nav-item">
         <a class="nav-link" href="charts.html">
-            <i class="fas fa-fw fa-chart-area"></i>
-            <span>Charts</span></a>
+            <i class="fas fa-fw fa-user-alt"></i>
+            <span>My Profile</span></a>
     </li>
 
     <!-- Divider -->
