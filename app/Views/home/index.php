@@ -1,11 +1,11 @@
-<!-- Begin Page Content -->
+<?= $this->extend('templates/index'); ?>
+
+<?= $this->section('page-content'); ?>
 <div class="container-fluid">
 
     <!-- Page Heading -->
-    <h1 class="h3 mb-4 text-gray-800">Homepage</h1>
-    <!-- <button class="btn bg-gradient-success text-white">Submit</button> -->
-</div>
-<!-- /.container-fluid -->
+    <h1 class="h3 mb-4 text-gray-800">Blank Page</h1>
 
 </div>
-<!-- End of Main Content -->
+
+<?= $this->endSection(); ?>
